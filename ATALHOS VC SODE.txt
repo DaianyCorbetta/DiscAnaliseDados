@@ -1,0 +1,8 @@
+"Find and Replace" panel by pressing Ctrl + H 
+
+To select all occurrences, press Ctrl + Shift + L 
+ This will select all highlighted occurrences.
+
+ usar o comando dis´lay no pandas é melhor que print
+ display(jogos_italia_2015_selecionados.head()), pelo fato de dar cabeçalo e organizaar
+ porem o print resume melhor e tras dados
