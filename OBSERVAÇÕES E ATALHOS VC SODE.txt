@@ -1,0 +1,55 @@
+"Find and Replace" panel by pressing Ctrl + H 
+
+To select all occurrences, press Ctrl + Shift + L 
+ This will select all highlighted occurrences.
+
+ usar o comando dis´lay no pandas é melhor que print
+ display(jogos_italia_2015_selecionados.head()), pelo fato de dar cabeçalo e organizaar
+ porem o print resume melhor e tras dados
+
+ #Pandas se integra bem com outras bibliotecas populares para ciência de dados, como Matplotlib 
+ (visualização de dados), NumPy (cálculos numéricos),  # SciPy (análise científica) e 
+Scikit-Learn (aprendizado de máquina).
+
+#Matplotlib é um pacote Python que integra o SciPy, e é usado
+para visualização de dados por intermédio de gráficos 2D
+#
+
+#O pacote Numpy, que significa Python numérico, é utilizado para computação científica em Python. 
+Esta biblioteca consiste em objetos de array multidimensionais e uma coleção de rotinas para 
+processamento de arrays. Entre suas várias funcionalidades é possível destacar: operações matemáticas
+ e lógicas em matrizes; ferramentas para integrar código de outras linguagens de programação; 
+ operações relacionadas à álgebra linear e geração de números aleatórios; transformada de Fourier 
+ e rotinas para manipulação de formas.
+
+#***data frame*** é uma estrutura de dados tabular, rotulada e bidimensional, que compreende um 
+conjunto de colunas e linhas ordenadas de tipos potencialmente diferentes. 
+Um data frame pode ser criado a partir de várias coleções de dados, como ndarray unidimensional, 
+ndarray bidimensional, ndarray estruturado ou registro, uma série ou outro data frame.
+
+#ndarray (N-dimensional array).
+matriz = np.array([[1, 2, 3],
+                   [4, 5, 6]])
+é: Um array unidimensional é essencialmente um vetor, uma sequência ordenada de elementos do mesmo tipo
+Operações em ndarrays são muito mais rápidas do que em listas Python, especialmente para grandes conjuntos de dados.
+
+rename() do Pandas: renomear colunas em DataFrames.
+drop() só precisa remover a coluna
+pop() Se, além de remover, você quer os dados da coluna para usá-los depois
+str.len() para obter o comprimento de cada nome.
+drop_duplicates() para remover nomes duplicados.
+fillna() para preencher valores ausentes nos nomes.
+str.encode() para converter os nomes no formato adequado.
+str.upper() para converter todos os nomes em letras maiúsculas e minúsculas.
+
+DataFrame 'dados', você pode realizar diversas operações, como:
+
+Visualizar os dados: dados.head(), dados.tail()
+Acessar colunas: dados['coluna']
+Filtrar dados: dados[dados['coluna'] > 5]
+Agrupar dados: dados.groupby('coluna').mean()
+
+
+
+
+
